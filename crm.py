@@ -16,7 +16,7 @@ import pyaudio
 
 # Set your API keys
 os.environ["OPENAI_API_KEY"] = # Your KEY HERE #
-aai.settings.api_key = "e6707389a0584af48bdc0fc3e387b74a"
+aai.settings.api_key = #Your KEY HERE #
 llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
 auth_key = "e6707389a0584af48bdc0fc3e387b74a"
 # Function to load data from pickle files
